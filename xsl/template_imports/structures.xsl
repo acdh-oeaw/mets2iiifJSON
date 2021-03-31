@@ -23,7 +23,7 @@
             
             <xsl:text>"type": "Range",</xsl:text>
             <xsl:text>"label": { "none": [ "</xsl:text><xsl:value-of select="concat(substring-after(@ID, 'PHYS_'), ' (book cover)')"/><xsl:text>" ] },</xsl:text>                
-            <xsl:text>"canvases": [ </xsl:text> 
+            <xsl:text>"items": [ </xsl:text> 
             
             <!-- ************* SUB OBJECTS ************** -->
             <xsl:for-each select="//mets:structMap[@TYPE='PHYSICAL']/mets:div[@TYPE='physSequence']">      

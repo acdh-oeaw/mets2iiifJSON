@@ -66,14 +66,7 @@
         {
             "id": "http://diglib.hab.de/mss/50-weiss/thumbs/00011.jpg",
             "type": "Image",
-            "format": "image/jpeg",
-            "service": [
-                {
-                    "id": "http://diglib.hab.de/mss/50-weiss/thumbs",
-                    "type": "ImageService3",
-                    "profile": "level1"
-                }
-            ]
+            "format": "image/jpeg"
         }
     ],
     "viewingDirection": "left-to-right",
@@ -9278,7 +9271,7 @@
                     "0000 (book cover)"
                 ]
             },
-            "canvases": [
+            "items": [
                 {
                     "id": "http://diglib.hab.de/mss/50-weiss/canvas/page1",
                     "type": "Canvas",
