@@ -24,7 +24,7 @@
     <xsl:import href="template_imports/items.xsl"/>
     <xsl:import href="template_imports/structures.xsl"/>
     <xsl:import href="template_imports/annotations.xsl"/>
-    <xsl:param name="baseURI"><xsl:value-of select="replace(//dv:presentation,'/start.htm','')"/></xsl:param>
+    <xsl:param name="baseURI">https://iiifpresentation.acdh.oeaw.ac.at/margins</xsl:param>
     <xsl:template match="/">
         <xsl:text>{</xsl:text>
         
