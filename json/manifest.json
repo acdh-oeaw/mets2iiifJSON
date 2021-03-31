@@ -11430,11 +11430,11 @@
     ],
     "annotations": [
         {
-            "id": "https://iiifpresentation.acdh.oeaw.ac.at/margins/manifest/1",
+            "id": "https://iiifpresentation.acdh.oeaw.ac.at/margins/1",
             "type": "AnnotationPage",
             "items": [
                 {
-                    "id": "https://iiifpresentation.acdh.oeaw.ac.at/margins/manifest/a1",
+                    "id": "https://iiifpresentation.acdh.oeaw.ac.at/margins/a1",
                     "type": "Annotation",
                     "motivation": "commenting",
                     "body": {
@@ -11442,7 +11442,7 @@
                         "language": "en",
                         "value": "Manifest to convert mets/xml to IIIF"
                     },
-                    "target": "https://iiifpresentation.acdh.oeaw.ac.at/margins/manifest"
+                    "target": "https://iiifpresentation.acdh.oeaw.ac.at/margins"
                 }
             ]
         }

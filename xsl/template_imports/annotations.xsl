@@ -14,11 +14,11 @@
         <xsl:param name="baseURI"/>
         <xsl:text>"annotations": [</xsl:text>
         <xsl:text>{</xsl:text>
-        <xsl:text>"id": "</xsl:text><xsl:value-of select="concat($baseURI,'/manifest/1')"/><xsl:text>",</xsl:text>
+        <xsl:text>"id": "</xsl:text><xsl:value-of select="concat($baseURI,'/1')"/><xsl:text>",</xsl:text>
         <xsl:text>"type": "AnnotationPage",</xsl:text>
         <xsl:text>"items": [</xsl:text>
         <xsl:text>{</xsl:text>
-        <xsl:text>"id": "</xsl:text><xsl:value-of select="concat($baseURI,'/manifest/a1')"/><xsl:text>",</xsl:text>
+        <xsl:text>"id": "</xsl:text><xsl:value-of select="concat($baseURI,'/a1')"/><xsl:text>",</xsl:text>
         <xsl:text>"type": "Annotation",</xsl:text>
         <xsl:text>"motivation": "commenting",</xsl:text>
         <xsl:text>"body":</xsl:text>            
@@ -29,7 +29,7 @@
         <xsl:text>"value": "Manifest to convert mets/xml to IIIF"</xsl:text>
         <xsl:text>},</xsl:text><!-- body -->
                             
-        <xsl:text>"target": "</xsl:text><xsl:value-of select="concat($baseURI,'/manifest')"/><xsl:text>"</xsl:text>
+        <xsl:text>"target": "</xsl:text><xsl:value-of select="$baseURI"/><xsl:text>"</xsl:text>
         <xsl:text>}</xsl:text><!-- images -->
         <xsl:text>]</xsl:text><!-- images -->
         
