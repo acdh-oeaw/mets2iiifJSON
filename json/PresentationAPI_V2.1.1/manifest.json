@@ -35,7 +35,7 @@
     "logo": {
         "@id": "http://diglib.hab.de/mss/50-weiss/thumbs/00011.jpg",
         "@type": "dctypes:Image",
-        "format": "image/gif",
+        "format": "image/jpeg",
         "height": 172,
         "width": 150
     },
