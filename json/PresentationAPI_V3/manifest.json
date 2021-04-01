@@ -11430,11 +11430,11 @@
     ],
     "annotations": [
         {
-            "id": "https://iiifpresentation.acdh.oeaw.ac.at/margins/1",
+            "id": "https://iiifpresentation.acdh.oeaw.ac.at/margins/manifest/annopage1",
             "type": "AnnotationPage",
             "items": [
                 {
-                    "id": "https://iiifpresentation.acdh.oeaw.ac.at/margins/a1",
+                    "id": "https://iiifpresentation.acdh.oeaw.ac.at/margins/manifest/annotation1",
                     "type": "Annotation",
                     "motivation": "commenting",
                     "body": {

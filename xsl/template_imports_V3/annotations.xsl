@@ -14,11 +14,11 @@
         <xsl:param name="baseURI"/>
         <xsl:text>"annotations": [</xsl:text>
         <xsl:text>{</xsl:text>
-        <xsl:text>"id": "</xsl:text><xsl:value-of select="concat($baseURI,'/1')"/><xsl:text>",</xsl:text>
+        <xsl:text>"id": "</xsl:text><xsl:value-of select="concat($baseURI,'/manifest/annopage1')"/><xsl:text>",</xsl:text>
         <xsl:text>"type": "AnnotationPage",</xsl:text>
         <xsl:text>"items": [</xsl:text>
         <xsl:text>{</xsl:text>
-        <xsl:text>"id": "</xsl:text><xsl:value-of select="concat($baseURI,'/a1')"/><xsl:text>",</xsl:text>
+        <xsl:text>"id": "</xsl:text><xsl:value-of select="concat($baseURI,'/manifest/annotation1')"/><xsl:text>",</xsl:text>
         <xsl:text>"type": "Annotation",</xsl:text>
         <xsl:text>"motivation": "commenting",</xsl:text>
         <xsl:text>"body":</xsl:text>            

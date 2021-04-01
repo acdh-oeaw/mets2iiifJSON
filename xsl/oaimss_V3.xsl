@@ -10,20 +10,20 @@
     exclude-result-prefixes="xs"
     version="2.0">
     
-    <xsl:import href="template_imports/metadata_manifest.xsl"/>
-    <xsl:import href="template_imports/metadata_project.xsl"/>
-    <xsl:import href="template_imports/thumbnail.xsl"/>
-    <xsl:import href="template_imports/technicals.xsl"/>
-    <xsl:import href="template_imports/licence.xsl"/>
-    <xsl:import href="template_imports/provider.xsl"/>
-    <xsl:import href="template_imports/homepage.xsl"/>
-    <xsl:import href="template_imports/service.xsl"/>
-    <xsl:import href="template_imports/rendering.xsl"/>
-    <xsl:import href="template_imports/start.xsl"/>
-    <xsl:import href="template_imports/services.xsl"/>
-    <xsl:import href="template_imports/items.xsl"/>
-    <xsl:import href="template_imports/structures.xsl"/>
-    <xsl:import href="template_imports/annotations.xsl"/>
+    <xsl:import href="template_imports_V3/metadata_manifest.xsl"/>
+    <xsl:import href="template_imports_V3/metadata_project.xsl"/>
+    <xsl:import href="template_imports_V3/thumbnail.xsl"/>
+    <xsl:import href="template_imports_V3/technicals.xsl"/>
+    <xsl:import href="template_imports_V3/licence.xsl"/>
+    <xsl:import href="template_imports_V3/provider.xsl"/>
+    <xsl:import href="template_imports_V3/homepage.xsl"/>
+    <xsl:import href="template_imports_V3/service.xsl"/>
+    <xsl:import href="template_imports_V3/rendering.xsl"/>
+    <xsl:import href="template_imports_V3/start.xsl"/>
+    <xsl:import href="template_imports_V3/services.xsl"/>
+    <xsl:import href="template_imports_V3/items.xsl"/>
+    <xsl:import href="template_imports_V3/structures.xsl"/>
+    <xsl:import href="template_imports_V3/annotations.xsl"/>
     <xsl:param name="baseURI">https://iiifpresentation.acdh.oeaw.ac.at/margins</xsl:param>
     <xsl:template match="/">
         <xsl:text>{</xsl:text>
