@@ -33,6 +33,7 @@
             <xsl:text>"width": 2000,</xsl:text>
             <xsl:text>"images": [</xsl:text>
             <xsl:text>{</xsl:text>
+            <xsl:text>"@id": "</xsl:text><xsl:value-of select="concat($baseURI,'/annotation/',@TYPE,@ORDER)"/><xsl:text>",</xsl:text>
             <xsl:text>"@type": "oa:Annotation",</xsl:text>
             <xsl:text>"motivation": "sc:painting",</xsl:text>
             <xsl:text>"resource":</xsl:text>            
