@@ -18,7 +18,7 @@
     <xsl:import href="template_imports_V2.1.1/licence.xsl"/>
     <xsl:import href="template_imports_V2.1.1/sequences.xsl"/>
     <xsl:import href="template_imports_V2.1.1/structures.xsl"/>
-    <xsl:param name="baseURI">https://iiifpresentation.acdh.oeaw.ac.at/margins</xsl:param>
+    <xsl:param name="baseURI">https://raw.githubusercontent.com/acdh-oeaw/mets2iiifJSON/master/json/PresentationAPI_V2.1.1</xsl:param>
     <xsl:template match="/">
         <xsl:text>{</xsl:text>
         
