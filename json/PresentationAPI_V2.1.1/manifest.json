@@ -24,16 +24,20 @@
     "description": "Priscianus: Institutiones (Cod. Guelf. 50 Weiss.) — Signaturdokument zusammengestellt von Torsten Schaßan, und publiziert von Herzog August Bibliothek Wolfenbüttel, 2011-04-01",
     "thumbnail": {
         "@id": "http://diglib.hab.de/mss/50-weiss/thumbs/00011.jpg",
-        "type": "dctypes:Image",
-        "format": "image/jpeg"
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "height": 172,
+        "width": 150
     },
     "viewingDirection": "left-to-right",
     "viewingHint": "paged",
     "navDate": "2020-05-18T12:18:43Z",
     "logo": {
-        "@id": "http://www.hab.de/images/logo_dfg_viewer.gif",
-        "type": "dctypes:Image",
-        "format": "image/gif"
+        "@id": "http://diglib.hab.de/mss/50-weiss/thumbs/00011.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/gif",
+        "height": 172,
+        "width": 150
     },
     "license": "https://creativecommons.org/publicdomain/zero/1.0/deed.de",
     "attribution": "Für das Signaturdokument verzichtet die Herzog August Bibliothek auf alle Nutzungsrechte. Für die Nutzung weiterer Daten wie Digitalisaten gelten gegebenenfalls andere Lizenzen. Vgl. die Copyright Information der Herzog August Bibliothek Wolfenbüttel.",
