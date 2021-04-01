@@ -14,7 +14,9 @@
         <xsl:param name="baseURI"/>
         <xsl:text>"logo":</xsl:text>
         <xsl:text>{</xsl:text>
-        <xsl:text>"@id": "</xsl:text><xsl:value-of select="//dv:ownerLogo"/><xsl:text>"</xsl:text>  
+        <xsl:text>"@id": "</xsl:text><xsl:value-of select="//dv:ownerLogo"/><xsl:text>",</xsl:text>  
+        <xsl:text>"type": "Image",</xsl:text>
+        <xsl:text>"format": "image/gif"</xsl:text>
         <xsl:text>}</xsl:text><!-- provider -->
     </xsl:template>
     

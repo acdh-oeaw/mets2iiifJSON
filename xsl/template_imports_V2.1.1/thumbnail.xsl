@@ -14,7 +14,9 @@
         <xsl:param name="baseURI"/>
         <xsl:text>"thumbnail":</xsl:text>
         <xsl:text>{</xsl:text>
-        <xsl:text>"@id": "</xsl:text><xsl:value-of select="//tei:pubPlace/tei:ptr[@type='thumbnailForPresentations']/@target"/><xsl:text>"</xsl:text>
+        <xsl:text>"@id": "</xsl:text><xsl:value-of select="//tei:pubPlace/tei:ptr[@type='thumbnailForPresentations']/@target"/><xsl:text>",</xsl:text>
+        <xsl:text>"type": "Image",</xsl:text>
+        <xsl:text>"format": "image/jpeg"</xsl:text>
         <xsl:text>}</xsl:text><!-- thumbnail -->
     </xsl:template>
     
