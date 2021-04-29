@@ -24,7 +24,7 @@
     <xsl:import href="template_imports_V3/items.xsl"/>
     <xsl:import href="template_imports_V3/structures.xsl"/>
     <xsl:import href="template_imports_V3/annotations.xsl"/>
-    <xsl:param name="baseURI">https://iiifpresentation.acdh.oeaw.ac.at/margins</xsl:param>
+    <xsl:param name="baseURI">https://raw.githubusercontent.com/acdh-oeaw/mets2iiifJSON/master/json/PresentationAPI_V3<!--https://iiifpresentation.acdh.oeaw.ac.at/margins--></xsl:param>
     <xsl:template match="/">
         <xsl:text>{</xsl:text>
         
