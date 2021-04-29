@@ -16,14 +16,9 @@
         <xsl:text>{</xsl:text>
         <xsl:text>"id": "</xsl:text><xsl:value-of select="//tei:pubPlace/tei:ptr[@type='thumbnailForPresentations']/@target"/><xsl:text>",</xsl:text>
         <xsl:text>"type": "Image",</xsl:text>
-        <xsl:text>"format": "image/jpeg"</xsl:text>
-        <!--<xsl:text>"service": [</xsl:text>
-        <xsl:text>{</xsl:text>
-        <xsl:text>"id": "</xsl:text><xsl:value-of select="concat($baseURI,'/thumbs')"/><xsl:text>",</xsl:text>
-        <xsl:text>"type": "ImageService3",</xsl:text>
-        <xsl:text>"profile": "level1"</xsl:text>
-        <xsl:text>}</xsl:text><!-\- service -\->
-        <xsl:text>]</xsl:text><!-\- service -\->-->
+        <xsl:text>"format": "image/jpeg",</xsl:text>
+        <xsl:text>"height": 172,</xsl:text>
+        <xsl:text>"width": 150</xsl:text>
         <xsl:text>}</xsl:text><!-- thumbnail -->
         <xsl:text>]</xsl:text><!-- thumbnail -->
     </xsl:template>

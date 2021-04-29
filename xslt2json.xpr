@@ -14,7 +14,7 @@
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>oamiss_test_json_V2.1.1</String>
+                                        <String>oamiss_test_json_V3</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">

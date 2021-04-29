@@ -66,7 +66,9 @@
         {
             "id": "http://diglib.hab.de/mss/50-weiss/thumbs/00011.jpg",
             "type": "Image",
-            "format": "image/jpeg"
+            "format": "image/jpeg",
+            "height": 172,
+            "width": 150
         }
     ],
     "viewingDirection": "left-to-right",
@@ -110,9 +112,11 @@
             ],
             "logo": [
                 {
-                    "id": "http://www.hab.de/images/logo_dfg_viewer.gif",
+                    "id": "http://diglib.hab.de/mss/50-weiss/thumbs/00011.jpg",
                     "type": "Image",
-                    "format": "image/gif"
+                    "format": "image/jpeg",
+                    "height": 172,
+                    "width": 150
                 }
             ]
         }
